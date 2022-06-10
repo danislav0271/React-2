@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import img from '../images/good-luck.jpg';
 
-const Content = () => {
+const Content: FunctionComponent = () => {
   return (
     <div className="content">
         <div>

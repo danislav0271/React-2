@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import img from '../images/playtech.jpg';
 
-const Header = () => {
+const Header: FunctionComponent = () => {
   return (
         <header>
             <h1>ROBOT FACTORY</h1>
